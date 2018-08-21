@@ -1,0 +1,49 @@
+<apex:page sidebar="false" showHeader="false" controller="accountctrl" >
+
+<style>
+ h1{
+color:red;
+ 
+ }
+ </style>
+ 
+ <h1> CSS EXAMPLE</h1>
+ 
+ <apex:pageBlock >
+ 
+ <apex:pageblockTable value="{!account}" var="a">
+ <apex:column value="{!a.Name}"/>
+ <apex:column value="{!a.Type}"/>
+ <apex:column value="{!a.Id}"/>
+ 
+ </apex:pageblockTable>
+
+ </apex:pageBlock>
+ 
+ <apex:form >
+ 
+ <table border= "1">
+
+ <tr >
+  <th class="h1"> Account Name </th>
+  <th> Type </th>
+ 
+ </tr>
+<apex:repeat value="{!account}" var="a">
+ <tr> 
+  
+  <td> {!a.Name}
+  </td >
+  <td > {!a.Type}</td >
+
+ 
+ </tr>
+ 
+  </apex:repeat>
+ 
+ 
+ 
+ </table>
+ 
+ </apex:form>
+</apex:page>

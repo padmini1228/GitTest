@@ -1,0 +1,5 @@
+<apex:page sidebar="false" showHeader="false">
+  <!-- Begin Default Content REMOVE THIS -->
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

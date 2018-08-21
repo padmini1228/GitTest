@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Accounts Temp Access {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Accounts Temp Access</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Accounts_Temp_Access</name>
+        <label>Accounts Temp Access</label>
+        <locationX>149</locationX>
+        <locationY>183</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Name</name>
+            <dataType>String</dataType>
+            <fieldText>Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+    </screens>
+    <startElementReference>Accounts_Temp_Access</startElementReference>
+</Flow>
